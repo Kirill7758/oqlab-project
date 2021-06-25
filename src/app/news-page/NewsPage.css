@@ -1,0 +1,11 @@
+.flex-start.cards {
+    flex-wrap: wrap;
+    flex: 0 1 calc(33.3% / 5);
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.card {
+    max-width: 250px;
+    text-transform: capitalize;
+}

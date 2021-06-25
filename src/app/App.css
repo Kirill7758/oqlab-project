@@ -1,0 +1,40 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.link {
+  text-decoration: none;
+  color: #fff;
+}
+
+div.field {
+  min-width: 250px;
+}
+
+.flex-between {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.flex-start {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
